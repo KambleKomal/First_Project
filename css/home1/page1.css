@@ -1,0 +1,108 @@
+body{
+    margin:auto;
+}
+#header{
+    height:120px;
+    width:100%;
+    background-color: red;
+    
+}
+#logo{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    margin-left:5%;
+    margin-top: 2%;
+    background-color:white;
+    display:inline-block;
+    
+}
+#logo > p{
+    color:red;
+    margin:26%;
+    font-weight: bold;
+    font-size: 33px;
+}
+#logo2{
+    display:inline-block;
+    margin-left:70%;
+}
+#logo2 > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+}
+#register{
+    border: 1px solid;
+   
+}
+#main{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+#main >p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40;
+    color:darkblue;
+    text-shadow: 5px 5px 5px pink;
+
+}
+
+#filter{
+    height:600px;
+    width:20%;
+    float: left;
+    box-shadow:2px 3px 5px black;
+}
+
+#filter > p{
+    line-height:0.25;
+    font-size:20;
+    color:brown;
+
+}
+#content{
+    
+    width:65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -1%;
+   
+}
+.container{
+    width:100%;
+    height: 200px;
+    box-shadow:2px 3px 5px black;
+    margin-top: 2%;
+}
+.image{
+    height: 100px;;
+    width: 100px;;
+    float:left;
+    margin-top:2%;
+    margin-left: 2%;
+    box-shadow: 2px 2px 2px;
+    border-radius: 15%;
+}
+.restoname{
+    display: inline-block;
+    height:50%;
+    width:70%;
+    margin-top:2%;
+    margin-left: 2%;
+}
+
+@media screen and(max-width:980px)
+{
+    body {
+        background-color: pink;
+    }
+}
+
+@media screen and(max-width:400px)
+{
+    body {
+        background-color: lightseagreen;
+    }
+}

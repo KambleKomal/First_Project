@@ -1,10 +1,12 @@
+assignment submission link :  https://github.com/edureka-intership/assignment-1-KambleKomal
+
 Assignment no 1:- https://xd.adobe.com/view/2409336a-0d1e-4f89-9b6c-1f9d1da0f2db-715a/?fullscreen
 
 
 git bash 
 
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/KambleKomal/First_Project.git
