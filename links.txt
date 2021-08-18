@@ -13,3 +13,20 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/KambleKomal/First_Project.git
 git push -u origin main
+
+Steps to push code to your branch
+
+
+git checkout master
+
+git add .
+
+git commit -am ”message ”
+
+git pull origin main
+
+git push origin master
+
+
+
+Everyone can save these commands and steps for future use. Whenever u need to update ur github repository
